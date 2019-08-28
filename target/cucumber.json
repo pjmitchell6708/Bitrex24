@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-28T03:27:24.527Z",
+        "line": 3,
+        "name": "User can create a new task by clicking on tasks",
+        "description": "",
+        "id": "activity-stream-page-options;user-can-create-a-new-task-by-clicking-on-tasks",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.Bitrix24.step_definitions.ActivityStreamStepDefs.i_login_as_a_user(ActivityStreamStepDefs.java:23)\r\n\tat ✽.I login as a user(file:Activity_stream_page_feature.feature:4)\r\n",
+              "duration": 12513228100,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "I login as a user",
+            "match": {
+              "location": "ActivityStreamStepDefs.i_login_as_a_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 741400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I am on the \"Activity Stream\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activity Stream\"",
+                  "offset": 12
+                }
+              ],
+              "location": "ActivityStreamStepDefs.i_am_on_the(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 749000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I should be able to create a  new task",
+            "match": {
+              "location": "ActivityStreamStepDefs.i_should_be_able_to_create_a_new_task()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Activity stream page options",
+    "description": "",
+    "id": "activity-stream-page-options",
+    "keyword": "Feature",
+    "uri": "file:Activity_stream_page_feature.feature",
+    "tags": []
+  }
+]

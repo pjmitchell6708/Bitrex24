@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.Bitrix24.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.74 sec <<< FAILURE! - in com.Bitrix24.runners.CukesRunner
+User can create a new task by clicking on tasks(Activity stream page options)  Time elapsed: 12.535 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.Bitrix24.step_definitions.ActivityStreamStepDefs.i_login_as_a_user(ActivityStreamStepDefs.java:23)
+	at ?.I login as a user(file:Activity_stream_page_feature.feature:4)
+
